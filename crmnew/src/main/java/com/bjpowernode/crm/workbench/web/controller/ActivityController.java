@@ -102,7 +102,7 @@ public class ActivityController {
     }
 
 
-    //跳转编辑页面
+    // 跳转编辑页面 跳转编辑页面 
     @RequestMapping("/workbench/activity/editActivity.do")
     public @ResponseBody Object editActivity(String id){
         Activity activity=activityService.queryActivityById(id);
